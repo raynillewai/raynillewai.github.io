@@ -67,5 +67,5 @@ function getMobileOperatingSystem() {
 */
 function goAppDeepLink() {
     // Deep link to your app goes here
-    window.location = "https://lzd.co/1212LazzieHunt";
+    window.location = "https://touchngoewallet.onelink.me/8mmV/streetparkingtng";
 }
