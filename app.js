@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }, 500);
         }
         else if (getMobileOperatingSystem() == "iOS") {
-            alert("ios");
+//             alert("ios");
 
             goAppDeepLink();
 
@@ -67,5 +67,5 @@ function getMobileOperatingSystem() {
 */
 function goAppDeepLink() {
     // Deep link to your app goes here
-    window.location = "https://touchngoewallet.onelink.me/8mmV/goinvest12";
+    window.location = "https://lzd.co/1212LazzieHunt";
 }
