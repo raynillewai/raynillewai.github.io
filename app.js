@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             setTimeout(function() {
                 // Link to the App Store go here -- only fires if deep link fails   
-                window.location = "https://play.google.com/store/apps/details?id=my.com.tngdigital.ewallet&hl=en&gl=US";
+                window.location = "https://touchngoewallet.onelink.me/8mmV/playstore";
             }, 500);
         }
         else if (getMobileOperatingSystem() == "iOS") {
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             setTimeout(function() {
                 // Link to the App Store go here -- only fires if deep link fails     
-                window.location = "https://apps.apple.com/my/app/touch-n-go-ewallet/id1344696702";
+                window.location = "https://touchngoewallet.onelink.me/8mmV/appstore";
             }, 500);
         }
     }
@@ -66,5 +66,5 @@ function getMobileOperatingSystem() {
 */
 function goAppDeepLink() {
     // Deep link to your app goes here
-    window.location = "tng_app://";
+    window.location = "https://touchngoewallet.onelink.me/8mmV/goinvest12";
 }
