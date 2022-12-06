@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }, 500);
         }
         else if (getMobileOperatingSystem() == "iOS") {
+            alert("ios");
 
             goAppDeepLink();
 
