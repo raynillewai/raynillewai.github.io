@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         else if (getMobileOperatingSystem() == "iOS") {
 
-//             goAppDeepLink();
+            goAppDeepLink();
 
 //             setTimeout(function() {
 //                 // Link to the App Store go here -- only fires if deep link fails     
