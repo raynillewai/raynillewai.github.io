@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     }
 
-    if (getMobileOperatingSystem() == "Windows Phone" || "unknown") {
-        window.location = "https://www.touchngo.com.my/";
-    }
+//     if (getMobileOperatingSystem() == "Windows Phone" || "unknown") {
+//         window.location = "https://www.touchngo.com.my/";
+//     }
 
 })
 
