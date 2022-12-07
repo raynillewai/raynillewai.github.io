@@ -1,13 +1,16 @@
 document.addEventListener("DOMContentLoaded", function() {
 
+    goAppDeepLink();
+
     if (getMobileOperatingSystem() == "Android") {
 
         setTimeout(function() {
-            // Link to the App Store go here -- only fires if deep link fails   
+            // Link to the Play Store go here -- only fires if deep link fails   
             window.location = "https://play.google.com/store/apps/details?id=my.com.tngdigital.ewallet&shortlink=playstore&pid=Webpage&af_click_lookback=7d";
         }, 3000);
 
     }
+
     if (getMobileOperatingSystem() == "iOS") {
         
         setTimeout(function() {
@@ -16,8 +19,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 3000);
 
     }
-
-    goAppDeepLink();
 
 })
 
