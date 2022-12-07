@@ -43,6 +43,6 @@ function getMobileOperatingSystem() {
 }
 
 function goAppDeepLink() {
-    // Deep link to TnG app goes here
+    // Deep link to ewallet goes here
     window.location = "tngdwallet://client/dl/payment/bills";
 }
