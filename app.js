@@ -20,6 +20,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     }
 
+    if (getMobileOperatingSystem() == "Windows Phone" || "unknown") {
+        window.location = "https://www.touchngo.com.my/";
+    }
+
 })
 
 function getMobileOperatingSystem() {
@@ -43,6 +47,6 @@ function getMobileOperatingSystem() {
 }
 
 function goAppDeepLink() {
-    // Deep link to ewallet goes here
+    // Deep link to TnG app goes here
     window.location = "tngdwallet://client/dl/payment/bills";
 }
