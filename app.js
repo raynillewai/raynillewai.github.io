@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     if (getMobileOperatingSystem() == "iOS") {
         
-//         setTimeout(function() {
-//             // Link to the App Store go here -- only fires if deep link fails     
-//             window.location = "https://touchngoewallet.onelink.me/8mmV/appstore";
-//         }, 3000);
+        setTimeout(function() {
+            // Link to the App Store go here -- only fires if deep link fails     
+            window.location = "https://touchngoewallet.onelink.me/8mmV/appstore";
+        }, 3000);
 
     }
 
@@ -43,5 +43,5 @@ function getMobileOperatingSystem() {
 
 function goAppDeepLink() {
     // Deep link to TnG app goes here
-    window.location = "https://touchngoewallet.onelink.me/8mmV/billsiconpagesm";
+    window.location = "https://touchngoewallet.onelink.me/8mmV/goinvest12";
 }
