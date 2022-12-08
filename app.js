@@ -10,8 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 3000);
 
     }
-
-    if (getMobileOperatingSystem() == "iOS") {
+    else if (getMobileOperatingSystem() == "iOS") {
         
         setTimeout(function() {
             // Link to the App Store go here -- only fires if deep link fails     
@@ -19,10 +18,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 3000);
 
     }
-
-//     if (getMobileOperatingSystem() == "Windows Phone" || "unknown") {
-//         window.location = "https://www.touchngo.com.my/";
-//     }
+    else if (getMobileOperatingSystem() == "Windows Phone" || "unknown") {
+        window.location = "https://www.touchngo.com.my/";
+    }
 
 })
 
