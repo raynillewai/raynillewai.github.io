@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     else if (getMobileOperatingSystem() == "iOS") {
         setTimeout(function () {
             // Link to the Play Store go here -- only fires if deep link fails   
-            window.location = "https://touchngoewallet.onelink.me/8mmV/appstore";
+            window.location = "https://apps.apple.com/my/app/touch-n-go-ewallet/id1344696702?af_click_lookback=7d&pid=Webpage&shortlink=appstore&source_caller=ui";
         }, 25);
         window.location = "tngdwallet://client/dl/payment/bills";
     }
