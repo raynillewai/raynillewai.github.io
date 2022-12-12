@@ -1,25 +1,22 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
 
-    goAppDeepLink();
+    // goAppDeepLink();
 
-    // if (getMobileOperatingSystem() == "Android") {
+    if (getMobileOperatingSystem() == "Android") {
 
-    //     setTimeout(function() {
-    //         // Link to the Play Store go here -- only fires if deep link fails   
-    //         window.location = "https://play.google.com/store/apps/details?id=my.com.tngdigital.ewallet&shortlink=playstore&pid=Webpage&af_click_lookback=7d";
-    //     }, 3000);
+        setTimeout(function () {
+            // Link to the Play Store go here -- only fires if deep link fails   
+            window.location = "https://play.google.com/store/apps/details?id=my.com.tngdigital.ewallet&shortlink=playstore&pid=Webpage&af_click_lookback=7d";
+        }, 3000);
 
-    // }
-    // else if (getMobileOperatingSystem() == "iOS") {
-    //     alert("App is not installed, going to appstore");
-        
-    //     window.location = "https://touchngoewallet.onelink.me/8mmV/appstore";
-
-    // }
-    // else if (getMobileOperatingSystem() == "Windows Phone" || "unknown") {
-    //     window.location = "https://www.touchngo.com.my/";
-    // }
-
+    }
+    else if (getMobileOperatingSystem() == "iOS") {
+        setTimeout(function () {
+            // Link to the Play Store go here -- only fires if deep link fails   
+            window.location = "https://touchngoewallet.onelink.me/8mmV/appstore";
+        }, 25);
+        window.location = "tngdwallet://client/dl/payment/bills";
+    }
 })
 
 function getMobileOperatingSystem() {
@@ -44,5 +41,5 @@ function getMobileOperatingSystem() {
 
 function goAppDeepLink() {
     // Deep link to TnG app goes here
-    window.location = "https://touchngoewallet.onelink.me/8mmV/goinvest12";
+    window.location = "tngdwallet://client/dl/payment/bills";
 }
