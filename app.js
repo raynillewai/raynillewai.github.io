@@ -2,27 +2,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
     goAppDeepLink();
 
-    if (getMobileOperatingSystem() == "Android") {
+    // if (getMobileOperatingSystem() == "Android") {
 
-        setTimeout(function() {
-            // Link to the Play Store go here -- only fires if deep link fails   
-            window.location = "https://play.google.com/store/apps/details?id=my.com.tngdigital.ewallet&shortlink=playstore&pid=Webpage&af_click_lookback=7d";
-        }, 3000);
+    //     setTimeout(function() {
+    //         // Link to the Play Store go here -- only fires if deep link fails   
+    //         window.location = "https://play.google.com/store/apps/details?id=my.com.tngdigital.ewallet&shortlink=playstore&pid=Webpage&af_click_lookback=7d";
+    //     }, 3000);
 
-    }
-    else if (getMobileOperatingSystem() == "iOS") {
-        alert("App is not installed, going to appstore");
+    // }
+    // else if (getMobileOperatingSystem() == "iOS") {
+    //     alert("App is not installed, going to appstore");
         
-        setTimeout(function() {
-            // Link to the App Store go here -- only fires if deep link fails     
-            window.location = "https://touchngoewallet.onelink.me/8mmV/appstore";
-            // window.location = "itms-apps://touchngoewallet.onelink.me/8mmV/appstore";
-        }, 3000);
+    //     window.location = "https://touchngoewallet.onelink.me/8mmV/appstore";
 
-    }
-    else if (getMobileOperatingSystem() == "Windows Phone" || "unknown") {
-        window.location = "https://www.touchngo.com.my/";
-    }
+    // }
+    // else if (getMobileOperatingSystem() == "Windows Phone" || "unknown") {
+    //     window.location = "https://www.touchngo.com.my/";
+    // }
 
 })
 
