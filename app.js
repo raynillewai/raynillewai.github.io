@@ -44,5 +44,5 @@ function getMobileOperatingSystem() {
 
 function goAppDeepLink() {
     // Deep link to TnG app goes here
-    window.location = "tngdwallet://client/dl/payment/bills";
+    window.location = "https://touchngoewallet.onelink.me/8mmV/goinvest12";
 }
