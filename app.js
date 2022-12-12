@@ -11,11 +11,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     }
     else if (getMobileOperatingSystem() == "iOS") {
+        alert("App is not installed, going to appstore");
         
         setTimeout(function() {
             // Link to the App Store go here -- only fires if deep link fails     
-            // window.location = "https://touchngoewallet.onelink.me/8mmV/appstore";
-            window.location = "itms-apps://touchngoewallet.onelink.me/8mmV/appstore";
+            window.location = "https://touchngoewallet.onelink.me/8mmV/appstore";
+            // window.location = "itms-apps://touchngoewallet.onelink.me/8mmV/appstore";
         }, 3000);
 
     }
