@@ -17,6 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 25);
         window.location = "tngdwallet://client/dl/payment/bills";
     }
+    else if (getMobileOperatingSystem() == "Windows Phone" || "unknown") {
+        window.location = "https://www.touchngo.com.my/";
+    }
 })
 
 function getMobileOperatingSystem() {
